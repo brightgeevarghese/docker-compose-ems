@@ -1,3 +1,4 @@
+'''
 bright~$docker compose up
 [+] Running 3/2
  ✔ Network demo101_default    Created                                                                               0.1s 
@@ -89,7 +90,7 @@ web-1    | 2024-11-17T03:22:33.367Z  INFO 1 --- [demo101] [           main] edu.
 web-1    | 2024-11-17T03:22:38.598Z  INFO 1 --- [demo101] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 web-1    | 2024-11-17T03:22:38.599Z  INFO 1 --- [demo101] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 web-1    | 2024-11-17T03:22:38.601Z  INFO 1 --- [demo101] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-
+'''
 <img width="1595" alt="image" src="https://github.com/user-attachments/assets/6ad9ceb3-14e4-440d-b33e-35a74b69bf56">
 <img width="612" alt="image" src="https://github.com/user-attachments/assets/9349dcfd-2e0f-42a9-ac09-849312ed25bd">
 <img width="659" alt="image" src="https://github.com/user-attachments/assets/d312ae4a-00e9-44b2-ac28-667144145ab5">
