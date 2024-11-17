@@ -100,4 +100,14 @@ web-1    | 2024-11-17T03:22:38.601Z  INFO 1 --- [demo101] [nio-8080-exec-1] o.s.
 <img width="659" alt="image" src="https://github.com/user-attachments/assets/7d936459-ad08-427a-9119-6151a2a4dff4">
 <img width="659" alt="image" src="https://github.com/user-attachments/assets/4ffd15ed-1a4f-42c3-9410-5373bd123873">
 <img width="778" alt="image" src="https://github.com/user-attachments/assets/c86e001d-0e87-47cd-9c9d-de79bbf74550">
-<img width="612" alt="image" src="https://github.com/user-attachments/assets/a7b866ca-37f2-4da7-898b-77ccd6af4a37">
+<!-- <img width="612" alt="image" src="https://github.com/user-attachments/assets/a7b866ca-37f2-4da7-898b-77ccd6af4a37"> -->
+
+```
+bright~$docker compose down
+[+] Running 3/3
+ ✔ Container demo101-web-1    Removed                                                                                  0.0s 
+ ✔ Container demo101-mysql-1  Removed                                                                                  0.0s 
+ ✔ Network demo101_default    Removed                                                                                  0.1s 
+bright~$
+
+```
