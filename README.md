@@ -1,6 +1,9 @@
-<img width="1595" alt="image" src="https://github.com/user-attachments/assets/6ad9ceb3-14e4-440d-b33e-35a74b69bf56">
-
 ```
+bright~$gradle bootJar     
+
+BUILD SUCCESSFUL in 5s
+4 actionable tasks: 3 executed, 1 up-to-date
+
 bright~$docker compose up
 [+] Running 3/2
  ✔ Network demo101_default    Created                                                                               0.1s 
