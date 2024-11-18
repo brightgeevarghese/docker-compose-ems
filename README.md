@@ -1,11 +1,11 @@
-<b>Build the jar file</b>
+<b>1. Build the jar file</b>
 ```
 bright~$gradle bootJar     
 
 BUILD SUCCESSFUL in 5s
 4 actionable tasks: 3 executed, 1 up-to-date
 ```
-<b>Builds, (re)creates, starts, and attaches to containers for a service</b>
+<b>2. Builds, (re)creates, starts, and attaches to containers for a service</b>
 ```
 bright~$docker compose up
 [+] Running 3/2
@@ -109,7 +109,7 @@ web-1    | 2024-11-17T03:22:38.601Z  INFO 1 --- [demo101] [nio-8080-exec-1] o.s.
 <!-- <img width="612" alt="image" src="https://github.com/user-attachments/assets/a7b866ca-37f2-4da7-898b-77ccd6af4a37"> -->
 
 
-<b>Stops containers and removes containers, networks, volumes, and images created by up.</b>
+<b>3. Stops containers and removes containers, networks, volumes, and images created by up.</b>
 
 ```
 bright~$docker compose down
