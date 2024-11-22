@@ -7,7 +7,7 @@ services:
       - 'MYSQL_ROOT_PASSWORD=verysecret'
       - 'MYSQL_USER=myuser'
     ports:
-      - '3307:3306'
+      - '3306:3306'
     healthcheck: #Ensures that the MySQL service is fully ready before the web service starts
       test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
       interval: 10s #The health check runs every 10 seconds.
@@ -16,7 +16,7 @@ services:
       start_period: 10s #This is a delay (10 seconds) after container startup before Docker begins checking the service health, giving MySQL some time to initialize.
 
   web:
-    image: 'myspringweb'
+    image: 'brightlsom/myspringweb:1.0.1'
     build:
       # Uses the current directory as the build context,
       # making all files in this directory available during the build process.
@@ -34,5 +34,3 @@ services:
         SPRING_DATASOURCE_PASSWORD: secret
         SPRING_JPA_HIBERNATE_DDL_AUTO: create
         SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQLDialect
-
-
